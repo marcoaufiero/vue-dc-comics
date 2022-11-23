@@ -41,7 +41,7 @@
         width: 70%;
         margin-inline: auto; 
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
 
