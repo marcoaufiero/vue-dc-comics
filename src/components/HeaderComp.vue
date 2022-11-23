@@ -50,6 +50,13 @@
                 a{
                     text-decoration: none;
                     color: black;
+                    padding-bottom: 60px;
+                    
+
+                    &:hover{
+                        color: #0282F9;
+                        box-shadow: 0px 4px 0 #0282F9;
+                    }
                 }
             }
         }
