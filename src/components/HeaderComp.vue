@@ -1,5 +1,5 @@
 <template>
-    <div class="sect-padding">
+    <div class="sect-settings">
         <div class="container">
             <img src="../assets/img/dc-logo.png" alt="">
             <ul class="nav-menu d-flex">
@@ -26,7 +26,7 @@
 
 <style lang="scss" scoped>
 
-    .sect-padding{
+    .sect-settings{
         padding: 20px 0;
     }
 
