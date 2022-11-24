@@ -23,6 +23,12 @@
         width: calc(100% / 6);  
         margin-top: 10px;
         padding: 20px;
+
+        &:hover{
+            cursor: pointer;
+            scale: 1.3;
+            transition: 0.3s;
+        }
         
         .img-box{
 

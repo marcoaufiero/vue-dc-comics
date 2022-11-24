@@ -121,7 +121,7 @@
         background-repeat: no-repeat;
         height: 550px;
     }
-    
+
     .container{
         
         width: 70%;
@@ -163,6 +163,12 @@
                 color: white;
                 font-weight: 600;
                 font-size: 0.8rem;
+
+                &:hover{
+                    cursor: pointer;
+                    scale: 1.1;
+                    transition: 0.3s;
+                }
             }
     }
     

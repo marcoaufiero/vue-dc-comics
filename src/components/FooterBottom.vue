@@ -6,11 +6,11 @@
             </div>
             <div class="footer-socials">
                 <h2>FOLLOW US</h2>
-                <img src="../assets/img/footer-facebook.png" alt="">
-                <img src="../assets/img/footer-twitter.png" alt="">
-                <img src="../assets/img/footer-youtube.png" alt="">
-                <img src="../assets/img/footer-pinterest.png" alt="">
-                <img src="../assets/img/footer-periscope.png" alt="">
+                <a href="#"><img src="../assets/img/footer-facebook.png" alt=""></a>
+                <a href="#"><img src="../assets/img/footer-twitter.png" alt=""></a>
+                <a href="#"><img src="../assets/img/footer-youtube.png" alt=""></a>
+                <a href="#"><img src="../assets/img/footer-pinterest.png" alt=""></a>
+                <a href="#"><img src="../assets/img/footer-periscope.png" alt=""></a>
             </div>
         </div>
     </div>
@@ -41,6 +41,12 @@
             border: 2px solid #0282F9;
             color: white;
             font-size: 1.1rem;
+
+            &:hover{
+                cursor: pointer;
+                background-color: #0282F9;
+                transition: 0.3s;
+            }
         }
 
         .footer-socials{
@@ -57,5 +63,6 @@
             }
 
         }
+
     }
 </style>

@@ -49,6 +49,11 @@
     .menu-button{
         display: flex;
         align-items: center;
+
+        &:hover{
+            cursor: pointer;
+            scale: 1.1;
+        }
         
         img{
             height: 50px;

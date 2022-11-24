@@ -99,6 +99,10 @@
             li{
             list-style: none;
             line-height: 20px;
+
+            &:hover{
+                text-decoration: underline;
+            }
             
                 a{
                     text-decoration: none;
