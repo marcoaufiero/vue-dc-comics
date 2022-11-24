@@ -19,7 +19,7 @@
 <style lang="scss" scoped>
     .card{
         width: calc(100% / 6);  
-        margin-top: 20px;
+        margin-top: 10px;
         padding: 20px;
         
         .img-box{
@@ -32,8 +32,7 @@
                 width: 100%;
                 
             }
-        }
-       
+        }  
     }
 
     

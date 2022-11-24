@@ -3,10 +3,15 @@
         <div class="hero">
 
         </div>
+        
         <div class="container">
+            <span class="series-label">CURRENT SERIES</span>
             <div class="comics-box">
                 <ComicCard v-for="(elem, index) in products" :key="index" :comicDetails="elem"/>
             </div>
+        </div>
+        <div class="load-more">
+            <span class="load-more-btn">LOAD MORE</span>
         </div>
     </div>
 </template>
@@ -107,7 +112,7 @@
 <style lang="scss" scoped>
     
     .bg-black{
-       background-color: black;
+       background-color: #1C1C1C;
     }
 
     .hero{
@@ -116,12 +121,28 @@
         background-repeat: no-repeat;
         height: 550px;
     }
+
+    
+
+
     .container{
         width: 70%;
         margin-inline: auto; 
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
+
+        .series-label{
+        padding: 15px;
+        background-color: #0282F9;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-50%);
+        color: white;
+        font-weight: 600;
+        }
 
         .comics-box{
             display: flex;
@@ -129,9 +150,23 @@
             width: 100%;
             margin: 50px 0;
             
-        }
+            }
     }
 
+    .load-more{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 20px;
+
+            .load-more-btn{
+                padding: 10px 30px;
+                background-color: #0282F9;
+                color: white;
+                font-weight: 600;
+                font-size: 0.8rem;
+            }
+    }
+    
     h2{
         color: white;
     }
