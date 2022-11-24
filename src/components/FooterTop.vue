@@ -46,8 +46,9 @@
                     </ul>
                 </div>
             </div>
-            
-            <img src="../assets/img/dc-logo-bg.png" alt="">
+            <div class="dc-logo-box">
+                
+            </div>
         </div>
     </div>
 </template>
@@ -60,7 +61,6 @@
 
 <style lang="scss" scoped>
     .sect-settings{
-        padding: 50px 0;
         background: url(../assets/img/footer-bg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -76,13 +76,17 @@
         display: flex;
         justify-content: space-between;
 
-        img{
-            width: 300px;
+        .dc-logo-box{
+            background-image: url("../assets/img/dc-logo-bg.png");
+            background-size: cover;
+            background-position: center;
+            width: 40%;
         }
     }
 
     .footer-menu{
         margin: 0 20px;
+        padding: 50px 0;
 
         h3{
             color: white;

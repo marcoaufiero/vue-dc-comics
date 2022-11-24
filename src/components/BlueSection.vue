@@ -18,7 +18,7 @@
                 <span>COMIC SHOP LOCATOR</span>
             </div>
             <div class="menu-button">
-                <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+                <img class="size-fix" src="../assets/img/buy-dc-power-visa.svg" alt="">
                 <span>DC VISA</span>
             </div>
         </div>
@@ -32,8 +32,9 @@
 </script>
 
 <style lang="scss" scoped>
+    
     .sect-settings{
-        padding: 60px 0;
+        padding: 50px 0;
         background-color: #0282F9;
     }
 
@@ -50,9 +51,12 @@
         align-items: center;
         
         img{
-            width: 60px;
-            height: 65px;
+            height: 50px;
             margin: 0 10px;
+        }
+
+        .size-fix{
+            width: 50px;
         }
 
         span{

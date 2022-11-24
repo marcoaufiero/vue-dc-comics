@@ -121,11 +121,9 @@
         background-repeat: no-repeat;
         height: 550px;
     }
-
     
-
-
     .container{
+        
         width: 70%;
         margin-inline: auto; 
         display: flex;
@@ -154,6 +152,7 @@
     }
 
     .load-more{
+            
             display: flex;
             justify-content: center;
             padding-bottom: 20px;

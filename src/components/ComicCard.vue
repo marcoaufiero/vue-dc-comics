@@ -17,7 +17,9 @@
 </script>
 
 <style lang="scss" scoped>
+    
     .card{
+        
         width: calc(100% / 6);  
         margin-top: 10px;
         padding: 20px;
@@ -29,16 +31,15 @@
             overflow: hidden;
 
             img{
-                width: 100%;
                 
+                width: 100%;
             }
         }  
     }
-
-    
 
     h5{
         color: white;
         margin-top: 20px;
     }
+
 </style>
